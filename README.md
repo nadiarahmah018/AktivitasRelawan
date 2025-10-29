@@ -51,7 +51,7 @@ Pastikan file config/database.php disesuaikan dengan pengaturan lokal:
 http://localhost/ManajemenAktivitas/index.php
 
 ## Struktur Folder
-
+'''
 /Manajemen Aktivitas
 ├── assets/
 │ ├── detailAktivitas.png
@@ -71,7 +71,7 @@ http://localhost/ManajemenAktivitas/index.php
 ├── index.php
 ├── README.md
 └── view.php
-
+'''
 
 ## Environment Config
 DB_HOST=127.0.0.1
