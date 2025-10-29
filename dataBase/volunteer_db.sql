@@ -1,0 +1,15 @@
+CREATE DATABASE IF NOT EXISTS volunteer_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+USE volunteer_db;
+
+CREATE TABLE IF NOT EXISTS activities (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    judul VARCHAR(255) NOT NULL,
+    deskripsi TEXT NOT NULL,
+    lokasi VARCHAR(255) NOT NULL,
+    tanggal DATE NOT NULL,
+    kuota INT NOT NULL,
+    status ENUM ('BUKA', 'TUTUP') NOT NULL DEFAULT 'BUKA',
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
