@@ -70,7 +70,8 @@ http://localhost/ManajemenAktivitas/index.php
 ├── edit.php
 ├── index.php
 ├── README.md
-└── view.php```
+└── view.php
+```
 
 
 ## Environment Config
